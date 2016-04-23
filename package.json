@@ -1,19 +1,17 @@
 {
-  "name": "package-generator-babel",
-  "main": "./lib/hello-world-babel",
-  "version": "0.0.0",
-  "description": "A package generator for atom using babel",
-  "repository": "https://github.com/ganarajpr/package-generator-babel",
+  "name": "kobble",
+  "main": "./lib/kobble",
+  "version": "0.9.0",
+  "description": "Kobble",
+  "repository": "https://github.com/kobble-git/kobble",
   "license": "MIT",
-  "activationCommands": {
-    "atom-workspace": "test-me:hello-world"
-  },
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
     "event-kit": ">= 0.7.2",
     "fs-plus": "^2.8.1",
+    "getport": "^0.1.0",
     "react-for-atom": "^0.13.6",
     "underscore-plus": "^1.6.6"
   }
