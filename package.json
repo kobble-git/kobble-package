@@ -4,7 +4,7 @@
   "version": "0.9.0",
   "description": "Kobble",
   "repository": "https://github.com/kobble-git/kobble",
-  "license": "MIT",
+  "license": "Custom",
   "engines": {
     "atom": ">0.50.0"
   },
@@ -12,6 +12,8 @@
     "event-kit": ">= 0.7.2",
     "fs-plus": "^2.8.1",
     "getport": "^0.1.0",
+    "mkdirp": "^0.5.1",
+    "osenv": "^0.1.3",
     "react-for-atom": "^0.13.6",
     "underscore-plus": "^1.6.6"
   }
