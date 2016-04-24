@@ -1,0 +1,7 @@
+'kobble-element':
+  'delete': 'native!'
+  'backspace': 'native!'
+  'up': 'native!'
+  'down': 'native!'
+  'left': 'native!'
+  'right': 'native!'
