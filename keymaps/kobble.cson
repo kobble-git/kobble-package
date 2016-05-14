@@ -1,4 +1,4 @@
-'kobble-element':
+'.kobble-webview':
   'delete': 'native!'
   'backspace': 'native!'
   'up': 'native!'
