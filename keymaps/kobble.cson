@@ -8,3 +8,14 @@
   'ctrl-c': 'native!'
   'ctrl-v': 'native!'
   'ctrl-x': 'native!'
+
+'kobble-element':
+  'delete': 'native!'
+  'backspace': 'native!'
+  'up': 'native!'
+  'down': 'native!'
+  'left': 'native!'
+  'right': 'native!'
+  'ctrl-c': 'native!'
+  'ctrl-v': 'native!'
+  'ctrl-x': 'native!'
