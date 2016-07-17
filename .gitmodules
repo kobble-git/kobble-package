@@ -1,3 +1,0 @@
-[submodule "node_modules/node-red"]
-    path = node_modules/node-red
-    url = ssh://git@github.com:kobble-git/node-red.git
