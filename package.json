@@ -1,7 +1,7 @@
 {
   "name": "kobble",
   "main": "./lib/kobble",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Kobble",
   "repository": "https://github.com/kobble-git/kobble",
   "license": "Custom",
