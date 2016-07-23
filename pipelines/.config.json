@@ -1,0 +1,929 @@
+{
+ "nodes": {
+  "node-red": {
+   "name": "node-red",
+   "version": "1.13.4-git",
+   "nodes": {
+    "sentiment": {
+     "name": "sentiment",
+     "types": [
+      "sentiment"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\analysis\\72-sentiment.js"
+    },
+    "inject": {
+     "name": "inject",
+     "types": [
+      "inject"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\core\\20-inject.js"
+    },
+    "catch": {
+     "name": "catch",
+     "types": [
+      "catch"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\core\\25-catch.js"
+    },
+    "status": {
+     "name": "status",
+     "types": [
+      "status"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\core\\25-status.js"
+    },
+    "debug": {
+     "name": "debug",
+     "types": [
+      "debug"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\core\\58-debug.js"
+    },
+    "exec": {
+     "name": "exec",
+     "types": [
+      "exec"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\core\\75-exec.js"
+    },
+    "function": {
+     "name": "function",
+     "types": [
+      "function"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\core\\80-function.js"
+    },
+    "template": {
+     "name": "template",
+     "types": [
+      "template"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\core\\80-template.js"
+    },
+    "delay": {
+     "name": "delay",
+     "types": [
+      "delay"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\core\\89-delay.js"
+    },
+    "trigger": {
+     "name": "trigger",
+     "types": [
+      "trigger"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\core\\89-trigger.js"
+    },
+    "comment": {
+     "name": "comment",
+     "types": [
+      "comment"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\core\\90-comment.js"
+    },
+    "unknown": {
+     "name": "unknown",
+     "types": [
+      "unknown"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\core\\98-unknown.js"
+    },
+    "rpi-gpio": {
+     "name": "rpi-gpio",
+     "types": [
+      "rpi-gpio in",
+      "rpi-gpio out",
+      "rpi-mouse",
+      "rpi-keyboard"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\hardware\\36-rpi-gpio.js"
+    },
+    "mqtt": {
+     "name": "mqtt",
+     "types": [
+      "mqtt in",
+      "mqtt out",
+      "mqtt-broker"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\io\\10-mqtt.js"
+    },
+    "httpin": {
+     "name": "httpin",
+     "types": [
+      "http in",
+      "http response"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\io\\21-httpin.js"
+    },
+    "httprequest": {
+     "name": "httprequest",
+     "types": [
+      "http request"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\io\\21-httprequest.js"
+    },
+    "websocket": {
+     "name": "websocket",
+     "types": [
+      "websocket in",
+      "websocket out",
+      "websocket-listener",
+      "websocket-client"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\io\\22-websocket.js"
+    },
+    "watch": {
+     "name": "watch",
+     "types": [
+      "watch"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\io\\23-watch.js"
+    },
+    "tcpin": {
+     "name": "tcpin",
+     "types": [
+      "tcp in",
+      "tcp out",
+      "tcp request"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\io\\31-tcpin.js"
+    },
+    "udp": {
+     "name": "udp",
+     "types": [
+      "udp in",
+      "udp out"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\io\\32-udp.js"
+    },
+    "switch": {
+     "name": "switch",
+     "types": [
+      "switch"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\logic\\10-switch.js"
+    },
+    "change": {
+     "name": "change",
+     "types": [
+      "change"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\logic\\15-change.js"
+    },
+    "range": {
+     "name": "range",
+     "types": [
+      "range"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\logic\\16-range.js"
+    },
+    "CSV": {
+     "name": "CSV",
+     "types": [
+      "csv"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\parsers\\70-CSV.js"
+    },
+    "HTML": {
+     "name": "HTML",
+     "types": [
+      "html"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\parsers\\70-HTML.js"
+    },
+    "JSON": {
+     "name": "JSON",
+     "types": [
+      "json"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\parsers\\70-JSON.js"
+    },
+    "XML": {
+     "name": "XML",
+     "types": [
+      "xml"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\parsers\\70-XML.js"
+    },
+    "tail": {
+     "name": "tail",
+     "types": [
+      "tail"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\storage\\28-tail.js"
+    },
+    "file": {
+     "name": "file",
+     "types": [
+      "file",
+      "file in"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\nodes\\core\\storage\\50-file.js"
+    }
+   }
+  },
+  "node-red-contrib-alexa": {
+   "name": "node-red-contrib-alexa",
+   "version": "0.0.4",
+   "nodes": {
+    "alexa": {
+     "name": "alexa",
+     "types": [
+      "alexa-skill-config",
+      "alexa-http launch",
+      "alexa-http intent",
+      "alexa-http session-end",
+      "alexa-say",
+      "alexa-card",
+      "alexa-link-account",
+      "alexa-http response"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-alexa",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-alexa\\alexa.js"
+    }
+   }
+  },
+  "node-red-contrib-coap": {
+   "name": "node-red-contrib-coap",
+   "version": "0.2.0",
+   "nodes": {
+    "coap-in": {
+     "name": "coap-in",
+     "types": [
+      "coap-server",
+      "coap in"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-coap",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-coap\\coap\\coap-in.js"
+    },
+    "coap-request": {
+     "name": "coap-request",
+     "types": [
+      "coap request"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-coap",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-coap\\coap\\coap-request.js"
+    }
+   }
+  },
+  "node-red-contrib-firebase": {
+   "name": "node-red-contrib-firebase",
+   "version": "1.1.1",
+   "nodes": {
+    "firebase_config": {
+     "name": "firebase_config",
+     "types": [
+      "firebase config"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-firebase",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-firebase\\firebase\\firebase_config.js"
+    },
+    "firebase_modify": {
+     "name": "firebase_modify",
+     "types": [
+      "firebase modify"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-firebase",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-firebase\\firebase\\firebase_modify.js"
+    },
+    "firebase_once": {
+     "name": "firebase_once",
+     "types": [
+      "firebase.once"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-firebase",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-firebase\\firebase\\firebase_once.js"
+    },
+    "firebase_on": {
+     "name": "firebase_on",
+     "types": [
+      "firebase.on"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-firebase",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-firebase\\firebase\\firebase_on.js"
+    },
+    "firebase_ondisconnect": {
+     "name": "firebase_ondisconnect",
+     "types": [
+      "firebase ondisconnect"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-firebase",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-firebase\\firebase\\firebase_ondisconnect.js"
+    },
+    "firebase_auth": {
+     "name": "firebase_auth",
+     "types": [
+      "firebase auth"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-firebase",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-firebase\\firebase\\firebase_auth.js"
+    }
+   }
+  },
+  "node-red-contrib-github": {
+   "name": "node-red-contrib-github",
+   "version": "0.1.5",
+   "nodes": {
+    "github": {
+     "name": "github",
+     "types": [
+      "github-credentials",
+      "github-repo",
+      "github-user"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-github",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-github\\node-red-contrib-github.js"
+    }
+   }
+  },
+  "node-red-contrib-mail-parse": {
+   "name": "node-red-contrib-mail-parse",
+   "version": "0.1.5",
+   "nodes": {
+    "mail-parse": {
+     "name": "mail-parse",
+     "types": [
+      "mail-parse"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-mail-parse",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-mail-parse\\mail-parse.js"
+    }
+   }
+  },
+  "node-red-contrib-nools": {
+   "name": "node-red-contrib-nools",
+   "version": "0.0.6",
+   "nodes": {
+    "nools": {
+     "name": "nools",
+     "types": [
+      "nools-flow",
+      "nools-assert",
+      "nools-fire"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-nools",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-nools\\nools.js"
+    }
+   }
+  },
+  "node-red-contrib-readability": {
+   "name": "node-red-contrib-readability",
+   "version": "5.0.2",
+   "nodes": {
+    "readability": {
+     "name": "readability",
+     "types": [
+      "readability"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-readability",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-readability\\src\\readability.js"
+    }
+   }
+  },
+  "node-red-contrib-slack": {
+   "name": "node-red-contrib-slack",
+   "version": "0.1.1",
+   "nodes": {
+    "slack": {
+     "name": "slack",
+     "types": [
+      "slack",
+      "Slack Bot In",
+      "Slack Bot Out"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-slack",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-slack\\slackpost.js"
+    }
+   }
+  },
+  "node-red-contrib-swagger": {
+   "name": "node-red-contrib-swagger",
+   "version": "0.3.2",
+   "nodes": {
+    "swagger": {
+     "name": "swagger",
+     "types": [
+      "swagger credentials",
+      "swagger api"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-swagger",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-swagger\\swagger\\node-red-contrib-swagger.js"
+    }
+   }
+  },
+  "node-red-contrib-tinkerpop": {
+   "name": "node-red-contrib-tinkerpop",
+   "version": "0.2.0",
+   "nodes": {
+    "tinkerpop": {
+     "name": "tinkerpop",
+     "types": [
+      "tinkerpop-config",
+      "gremlin-query"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-tinkerpop",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-contrib-tinkerpop\\tinkerpopNodes.js"
+    }
+   }
+  },
+  "node-red-node-aws": {
+   "name": "node-red-node-aws",
+   "version": "0.1.1",
+   "nodes": {
+    "amazon s3": {
+     "name": "amazon s3",
+     "types": [
+      "amazon s3 in",
+      "amazon s3",
+      "amazon s3 out",
+      "aws-config"
+     ],
+     "enabled": true,
+     "module": "node-red-node-aws",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-aws\\aws.js"
+    }
+   }
+  },
+  "node-red-node-box": {
+   "name": "node-red-node-box",
+   "version": "0.1.0",
+   "nodes": {
+    "box": {
+     "name": "box",
+     "types": [
+      "box-credentials",
+      "box in",
+      "box",
+      "box out"
+     ],
+     "enabled": true,
+     "module": "node-red-node-box",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-box\\box.js"
+    }
+   }
+  },
+  "node-red-node-delicious": {
+   "name": "node-red-node-delicious",
+   "version": "0.1.0",
+   "nodes": {
+    "delicious": {
+     "name": "delicious",
+     "types": [
+      "delicious-user",
+      "delicious out"
+     ],
+     "enabled": true,
+     "module": "node-red-node-delicious",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-delicious\\delicious.js"
+    }
+   }
+  },
+  "node-red-node-dropbox": {
+   "name": "node-red-node-dropbox",
+   "version": "0.1.3",
+   "nodes": {
+    "dropbox": {
+     "name": "dropbox",
+     "types": [
+      "dropbox-config",
+      "dropbox in",
+      "dropbox",
+      "dropbox out"
+     ],
+     "enabled": true,
+     "module": "node-red-node-dropbox",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-dropbox\\dropbox.js"
+    }
+   }
+  },
+  "node-red-node-email": {
+   "name": "node-red-node-email",
+   "version": "0.1.10",
+   "nodes": {
+    "email": {
+     "name": "email",
+     "types": [
+      "e-mail",
+      "e-mail in"
+     ],
+     "enabled": true,
+     "module": "node-red-node-email",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-email\\61-email.js"
+    }
+   }
+  },
+  "node-red-node-feedparser": {
+   "name": "node-red-node-feedparser",
+   "version": "0.1.5",
+   "nodes": {
+    "feedparse": {
+     "name": "feedparse",
+     "types": [
+      "feedparse"
+     ],
+     "enabled": true,
+     "module": "node-red-node-feedparser",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-feedparser\\32-feedparse.js"
+    }
+   }
+  },
+  "node-red-node-fitbit": {
+   "name": "node-red-node-fitbit",
+   "version": "0.1.0",
+   "nodes": {
+    "fitbit": {
+     "name": "fitbit",
+     "types": [
+      "fitbit-credentials",
+      "fitbit in",
+      "fitbit"
+     ],
+     "enabled": true,
+     "module": "node-red-node-fitbit",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-fitbit\\fitbit.js"
+    }
+   }
+  },
+  "node-red-node-flickr": {
+   "name": "node-red-node-flickr",
+   "version": "0.1.1",
+   "nodes": {
+    "flickr": {
+     "name": "flickr",
+     "types": [
+      "flickr-credentials",
+      "flickr out"
+     ],
+     "enabled": true,
+     "module": "node-red-node-flickr",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-flickr\\flickr.js"
+    }
+   }
+  },
+  "node-red-node-foursquare": {
+   "name": "node-red-node-foursquare",
+   "version": "0.1.0",
+   "nodes": {
+    "foursquare": {
+     "name": "foursquare",
+     "types": [
+      "foursquare-credentials",
+      "foursquare"
+     ],
+     "enabled": true,
+     "module": "node-red-node-foursquare",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-foursquare\\foursquare.js"
+    },
+    "swarm": {
+     "name": "swarm",
+     "types": [
+      "swarm in",
+      "swarm"
+     ],
+     "enabled": true,
+     "module": "node-red-node-foursquare",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-foursquare\\swarm.js"
+    }
+   }
+  },
+  "node-red-node-google": {
+   "name": "node-red-node-google",
+   "version": "0.1.0",
+   "nodes": {
+    "google plus": {
+     "name": "google plus",
+     "types": [
+      "google plus"
+     ],
+     "enabled": true,
+     "module": "node-red-node-google",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-google\\plus.js"
+    },
+    "google places": {
+     "name": "google places",
+     "types": [
+      "google places"
+     ],
+     "enabled": true,
+     "module": "node-red-node-google",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-google\\places.js"
+    },
+    "google-api-config": {
+     "name": "google-api-config",
+     "types": [
+      "google-credentials",
+      "google-api-config"
+     ],
+     "enabled": true,
+     "module": "node-red-node-google",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-google\\google.js"
+    },
+    "google geocoding": {
+     "name": "google geocoding",
+     "types": [
+      "google geocoding"
+     ],
+     "enabled": true,
+     "module": "node-red-node-google",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-google\\geocoding.js"
+    },
+    "google directions": {
+     "name": "google directions",
+     "types": [
+      "google directions"
+     ],
+     "enabled": true,
+     "module": "node-red-node-google",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-google\\directions.js"
+    },
+    "google calendar": {
+     "name": "google calendar",
+     "types": [
+      "google calendar in",
+      "google calendar",
+      "google calendar out"
+     ],
+     "enabled": true,
+     "module": "node-red-node-google",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-google\\calendar.js"
+    }
+   }
+  },
+  "node-red-node-instagram": {
+   "name": "node-red-node-instagram",
+   "version": "0.1.0",
+   "nodes": {
+    "instagram": {
+     "name": "instagram",
+     "types": [
+      "instagram-credentials",
+      "instagram",
+      "instagram in"
+     ],
+     "enabled": true,
+     "module": "node-red-node-instagram",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-instagram\\instagram.js"
+    }
+   }
+  },
+  "node-red-node-jawboneup": {
+   "name": "node-red-node-jawboneup",
+   "version": "0.1.0",
+   "nodes": {
+    "jawboneup": {
+     "name": "jawboneup",
+     "types": [
+      "jawboneup-credentials",
+      "jawboneup"
+     ],
+     "enabled": true,
+     "module": "node-red-node-jawboneup",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-jawboneup\\jawboneup.js"
+    }
+   }
+  },
+  "node-red-node-mongodb": {
+   "name": "node-red-node-mongodb",
+   "version": "0.0.5",
+   "nodes": {
+    "mongo": {
+     "name": "mongo",
+     "types": [
+      "mongodb",
+      "mongodb out",
+      "mongodb in"
+     ],
+     "enabled": true,
+     "module": "node-red-node-mongodb",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-mongodb\\66-mongodb.js"
+    }
+   }
+  },
+  "node-red-node-mysql": {
+   "name": "node-red-node-mysql",
+   "version": "0.0.9",
+   "nodes": {
+    "mysql": {
+     "name": "mysql",
+     "types": [
+      "MySQLdatabase",
+      "mysql"
+     ],
+     "enabled": true,
+     "module": "node-red-node-mysql",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-mysql\\68-mysql.js"
+    }
+   }
+  },
+  "node-red-node-openweathermap": {
+   "name": "node-red-node-openweathermap",
+   "version": "0.1.9",
+   "nodes": {
+    "openweathermap": {
+     "name": "openweathermap",
+     "types": [
+      "openweathermap",
+      "openweathermap in"
+     ],
+     "enabled": true,
+     "module": "node-red-node-openweathermap",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-openweathermap\\weather.js"
+    }
+   }
+  },
+  "node-red-node-pinboard": {
+   "name": "node-red-node-pinboard",
+   "version": "0.1.1",
+   "nodes": {
+    "pinboard": {
+     "name": "pinboard",
+     "types": [
+      "pinboard-user",
+      "pinboard out"
+     ],
+     "enabled": true,
+     "module": "node-red-node-pinboard",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-pinboard\\pinboard.js"
+    }
+   }
+  },
+  "node-red-node-pushover": {
+   "name": "node-red-node-pushover",
+   "version": "0.0.6",
+   "nodes": {
+    "pushover": {
+     "name": "pushover",
+     "types": [
+      "pushover"
+     ],
+     "enabled": true,
+     "module": "node-red-node-pushover",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-pushover\\57-pushover.js"
+    }
+   }
+  },
+  "node-red-node-strava": {
+   "name": "node-red-node-strava",
+   "version": "0.1.0",
+   "nodes": {
+    "strava": {
+     "name": "strava",
+     "types": [
+      "strava-credentials",
+      "strava"
+     ],
+     "enabled": true,
+     "module": "node-red-node-strava",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-strava\\strava.js"
+    }
+   }
+  },
+  "node-red-node-tfl": {
+   "name": "node-red-node-tfl",
+   "version": "0.1.1",
+   "nodes": {
+    "tfl underground": {
+     "name": "tfl underground",
+     "types": [
+      "tfl underground"
+     ],
+     "enabled": true,
+     "module": "node-red-node-tfl",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-tfl\\tfl-underground.js"
+    },
+    "tfl bus": {
+     "name": "tfl bus",
+     "types": [
+      "tfl bus"
+     ],
+     "enabled": true,
+     "module": "node-red-node-tfl",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-tfl\\tfl-bus.js"
+    }
+   }
+  },
+  "node-red-node-twilio": {
+   "name": "node-red-node-twilio",
+   "version": "0.0.8",
+   "nodes": {
+    "twilio": {
+     "name": "twilio",
+     "types": [
+      "twilio out",
+      "twilio-api"
+     ],
+     "enabled": true,
+     "module": "node-red-node-twilio",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-twilio\\56-twilio.js"
+    }
+   }
+  },
+  "node-red-node-twitter": {
+   "name": "node-red-node-twitter",
+   "version": "0.1.6",
+   "nodes": {
+    "twitter": {
+     "name": "twitter",
+     "types": [
+      "twitter-credentials",
+      "twitter in",
+      "twitter out"
+     ],
+     "enabled": true,
+     "module": "node-red-node-twitter",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-twitter\\27-twitter.js"
+    }
+   }
+  },
+  "node-red-node-weather-underground": {
+   "name": "node-red-node-weather-underground",
+   "version": "0.1.2",
+   "nodes": {
+    "wunder": {
+     "name": "wunder",
+     "types": [
+      "wunderground",
+      "wunderground in"
+     ],
+     "enabled": true,
+     "module": "node-red-node-weather-underground",
+     "file": "C:\\Users\\william\\.atom\\packages\\kobble-pipelines\\node_modules\\node-red-node-weather-underground\\wunder.js"
+    }
+   }
+  }
+ }
+}
